@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutraFit – Escolha seus frascos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/logo nutralfit.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f7d9e3, #e8f5e9);
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2em;
+            color: #d81b60;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .main-section {
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .logo-image {
+            height: 120px;
+        }
+
+        .benefits {
+            margin: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .benefit {
+            flex: 1;
+            min-width: 150px;
+            padding: 30px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .benefit i {
+            font-size: 1.5em;
+            color: #d81b60;
+            margin-bottom: 5px;
+        }
+
+        .benefit h3 {
+            font-size: 1.2em;
+            color: #d81b60;
+            margin-bottom: 5px;
+        }
+
+        .options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .option {
+            background-color: #fff;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 20px;
+            width: 400px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .option:hover {
+            transform: scale(1.05);
+            border-color: #d81b60;
+        }
+
+        .option img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .option h3 {
+            font-size: 1.3em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .option p {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .option .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #d81b60;
+            margin: 10px 0;
+        }
+
+        .option .discount {
+            font-size: 0.9em;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .option .btn {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 12px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+
+        .trust {
+            margin: 30px 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .trust span {
+            display: inline-block;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #f7d9e3;
+            color: #555;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #d81b60;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            .option {
+                max-width: 100%;
+            }
+
+            .benefits {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clareador NutraFit – Pele Radiante!</h1>
+        <p>
+            Acabe de vez com as manchas escuras da sua pele com nosso clareador revolucionário
+        </p>
+    </header>
+
+    <section class="main-section">
+        <img src="img/logo nutralfit.png" alt="Clareador NutraFit" class="logo-image">
+        <div class="benefits">
+            <div class="benefit">
+                <i class="fas fa-sun"></i>
+                <h3>Clareia Manchas</h3>
+                <p>Reduz manchas escuras e uniformiza o tom.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-droplet"></i>
+                <h3>Hidrata Profundamente</h3>
+                <p>Com ácido hialurônico para pele saudável.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-leaf"></i>
+                <h3>Efeito Aveludado</h3>
+                <p>Vitamina E deixa a pele suave.</p>
+            </div>
+        </div>
+        <h2>Escolha seu Tratamento NutraFit</h2>
+        <div class="options">
+            <div class="option">
+                <img src="img/1 frasco.jpg" alt="1 mês de tratamento">
+                <h3>Para 1 mês de Tratamento</h3>
+                <p class="discount">14% OFF</p>
+                <p class="price">R$ 139,00</p>
+                <a href="https://pay.braip.co/ref?pl=plavx0rn&ck=chen8edo&af=afivp4j3z1" class="btn">Comprar Agora</a>
+            </div>
+            <div class="option">
+                <img src="img/3 frascos.jpg" alt="3 meses de tratamento">
+                <h3>3 meses de Tratamento</h3>
+                <p class="discount">39% OFF</p>
+                <p class="price">R$ 299,90</p>
+                <a href="https://pay.braip.co/ref?pl=plaq6zvr&ck=chen8edo&af=afivp4j3z1" class="btn">Comprar Agora</a>
+            </div>
+            <div class="option">
+                <img src="img/5 frascos.jpg" alt="5 meses de tratamento">
+                <h3>5 meses de Tratamento</h3>
+                <p class="discount">49% OFF</p>
+                <p class="price">R$ 399,90</p>
+                <a href="https://pay.braip.co/ref?pl=planve2y&ck=chen8edo&af=afivp4j3z1" class="btn">Comprar Agora</a>
+            </div>
+            <div class="option">
+                <img src="img/8 frascos.jpg" alt="8 meses de tratamento">
+                <h3>8 meses de Tratamento</h3>
+                <p class="discount">54% OFF</p>
+                <p class="price">R$ 599,90</p>
+                <a href="https://pay.braip.co/ref?pl=plakpr4l&ck=chen8edo&af=afivp4j3z1" class="btn">Comprar Agora</a>
+            </div>
+        </div>
+        <div class="trust">
+            <span>✅ Garantia de 30 dias</span>
+            <span>⭐ 4,9/5 (2.000 avaliações)</span>
+            <span>🔒 Site 100% seguro</span>
+            <span>🚚 Entrega em 7-15 dias</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NutraFit. 
+            <a href="https://pay.braip.co/ref?pl=plavx0rn&ck=chen8edo&af=afivp4j3z1">1 frasco</a> | 
+            <a href="https://pay.braip.co/ref?pl=plaq6zvr&ck=chen8edo&af=afivp4j3z1">3 frascos</a> |
+            <a href="https://pay.braip.co/ref?pl=planve2y&ck=chen8edo&af=afivp4j3z1">5 frascos</a> |
+            <a href="https://pay.braip.co/ref?pl=plakpr4l&ck=chen8edo&af=afivp4j3z1">8 frascos</a> 
+        </p>
+    </footer>
+</body>
+</html>
